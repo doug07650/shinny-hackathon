@@ -1,3 +1,5 @@
 ShinnyHackathon::Application.routes.draw do
-  get '/' => 'main#index'
+  get '/patients' => 'main#patients'
+  get '/maps' => 'main#maps'
+  root to: 'main#index'
 end
