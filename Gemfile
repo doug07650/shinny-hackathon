@@ -21,3 +21,4 @@ gem 'jquery-rails'
 
 gem 'savon', git: 'git://github.com/genuitytech/savon.git'
 gem 'akami', git: 'git://github.com/genuitytech/akami.git'
+gem 'signer'
